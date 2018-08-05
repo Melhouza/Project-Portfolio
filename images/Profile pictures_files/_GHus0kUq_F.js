@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["efR7z"]); }
+
+__d("MessageThreadReadStateEffect",[],(function(a,b,c,d,e,f){"use strict";var g={MARK_READ:1,MARK_UNREAD:2,KEEP_AS_IS:3};a=function(a,b){var c=b.messageMetadata.skipBumpThread;a=a!==b.messageMetadata.actorFbId?g.MARK_UNREAD:g.KEEP_AS_IS;c&&(a=g.KEEP_AS_IS);return b.messageMetadata.threadReadStateEffect?b.messageMetadata.threadReadStateEffect:a};e.exports={MessageThreadReadStateEffectType:g,extractThreadStateEffectFromDelta:a}}),null);

@@ -1,0 +1,19 @@
+h1 {
+  color:blue;
+  font-style: oblique;
+  text-align: center;
+}
+h2 {
+  color: red;
+  font-style: italic;
+  text-align: center;
+}
+p{
+  font-family: sans-serif;
+}
+ul{
+  line-height: 40px;
+}
+body{
+  background-color: silver;
+}
